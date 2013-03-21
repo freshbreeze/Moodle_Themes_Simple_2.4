@@ -1,4 +1,7 @@
-1.0 First Version
+Versin 1.2 for Moodle 2.4 onwards
+
+For Moodle 2.1 - 2.3 visite: https://github.com/freshbreeze/Moodle_Themes_Simple_2.2 
+
 
 Simple template extends the standard theme
 Key Features

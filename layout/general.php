@@ -67,7 +67,7 @@ echo $OUTPUT->doctype() ?>
         <div id="page-header-top-right"><?php echo $OUTPUT->login_info(); ?></div>
 
         <div class="cleaner">&nbsp;</div>
-        <div id="page-header-middle-left"><a href="/?redirect=0"><img src="<?php echo $OUTPUT->pix_url('logo', 'theme')?>" alt="Logo" border="0" /></a></div>
+        <div id="page-header-middle-left"><a href="<?php echo $CFG->wwwroot; ?>/?redirect=0"><img src="<?php echo $OUTPUT->pix_url('logo', 'theme')?>" alt="Logo" border="0" /></a></div>
         <div id="page-header-middle-right"><h1><?php echo $PAGE->heading ?></h1></div>
         <?php } ?>
         <?php if ($hascustommenu) { ?>
@@ -102,7 +102,7 @@ echo $OUTPUT->doctype() ?>
                     <?php
                         // set Layout editing Box in "my home"
                         if(strripos($_SERVER['SCRIPT_NAME'],"my/index.php")){
-                            if($_SESSION['USER']->editing==1){
+                            if(isset($_SESSION['USER']->editing) && $_SESSION['USER']->editing==1){
                                 $cookie_layout = '';
                                 $cookie_height = '';
                                 if (isset($_COOKIE['myhome'])) {

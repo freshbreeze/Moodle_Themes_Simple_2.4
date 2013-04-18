@@ -1,4 +1,4 @@
-Versin 1.2 for Moodle 2.4 onwards
+Versin 1.3 for Moodle 2.4 onwards
 
 For Moodle 2.1 - 2.3 visite: https://github.com/freshbreeze/Moodle_Themes_Simple_2.2 
 

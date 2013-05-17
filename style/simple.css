@@ -296,6 +296,10 @@ th.header a{
 .block .header .block_action img, .block .header .block_action input{
     margin: 0 2px 0 0;
 }
+img.iconlarge {
+    height: 16px;
+    width: 16px;
+}
 /************************** Navigation left **************************/
 .tree_item{
     overflow: hidden;
@@ -385,6 +389,10 @@ ol.section, ul.section, dl.section{
 /* IE7 + IE8 Fix */
 a.dimmed, a.dimmed:link, a.dimmed:visited, a.dimmed_text, a.dimmed_text:link, a.dimmed_text:visited, .dimmed_text, .dimmed_text a, .dimmed_text a:link, .dimmed_text a:visited, .usersuspended, .usersuspended a, .usersuspended a:link, .usersuspended a:visited, .dimmed_category, .dimmed_category a {
     zoom: 1;
+}
+.site-topic ul.section, .course-content ul.section {
+    margin-top: 0;
+    margin-left: 0;
 }
 
 /************************** Dock **************************/
@@ -869,6 +877,17 @@ table.border{
 }
 #page-my-index .list_block a:visited, #page-my-index .block_rss_client a:visited {
     color: #4488b6;
+}
+
+#page-my-index h2{
+    font-size: 1em !important;
+}
+.block_course_overview .content{
+    margin:0;
+}
+.block_course_overview .coursebox{
+    padding:10px;
+    margin-bottom: 4px;
 }
 
 /************************** Colors for all Departements **************************/

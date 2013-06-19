@@ -300,6 +300,16 @@ img.iconlarge {
     height: 16px;
     width: 16px;
 }
+img.iconsmall, .block .header .commands .icon img {
+    /*** edit icons - only IE8+9 ***/
+    width: 14px\9;
+}
+.userenrolment .col_role .role a img {
+    /*** x icon in userenrolment - only IE8+9 ***/
+    width: 11px\9;
+    height: 11px\9;
+}
+
 /************************** Navigation left **************************/
 .tree_item{
     overflow: hidden;
@@ -329,15 +339,7 @@ img.iconlarge {
     padding-left: 0.4em;
     padding-right: 0.4em;
 }
-.course-content ul.topics li.section .left{
-    border-style: solid;
-    border-color: #ccc;
-    border-width: 1px;
-    border-left-width: 0px;
-    border-top-width: 0px;
-    background-color: transparent;
-    color: #666;
-}
+
 /* no formating */
 .course-content ul.topics li.section .content .summary .no-overflow .left,
 li#section-0 .left,

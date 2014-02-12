@@ -153,6 +153,13 @@ th.header a{
     font-weight: bold;
     display: block;
 }
+/* moodle 2.6*/
+#page-front .menu a{
+  background-color: gray;
+}
+#page-front .menu a{
+  padding:0 2px 0 2px;
+}
 /*** only IE7 ***/
 * + html #page-front-right .block .header h2{
     padding: 0 0 10px 0;  
@@ -396,6 +403,10 @@ a.dimmed, a.dimmed:link, a.dimmed:visited, a.dimmed_text, a.dimmed_text:link, a.
     margin-top: 0;
     margin-left: 0;
 }
+.mediaplugin_html5audio, .mediaplugin_html5video, .mediaplugin_swf, .mediaplugin_flv, .mediaplugin_real, .mediaplugin_youtube, .mediaplugin_vimeo, .mediaplugin_wmp, .mediaplugin_qt{
+  text-align:left;
+}
+
 
 /************************** Dock **************************/
 #dock, #dock .dockeditem .dockedtitle{

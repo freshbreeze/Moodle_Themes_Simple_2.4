@@ -24,7 +24,7 @@ echo $OUTPUT->doctype() ?>
 <head>
     <title><?php echo $PAGE->title ?></title>
     <link rel="shortcut icon" href="<?php echo $OUTPUT->pix_url('favicon', 'theme')?>" />
-    <meta name="viewport" content="width=device-width, maximum-scale=1.0" />
+    <meta name="viewport" content="width=device-width" />
     <meta name="description" content="<?php p(strip_tags(format_text($SITE->summary, FORMAT_HTML))) ?>" />
     <?php echo $OUTPUT->standard_head_html() ?>
     
@@ -69,7 +69,7 @@ echo $OUTPUT->doctype() ?>
     <div id="page-front">
         <div id="page-front-wrapper" >
             <div id="page-front-right">
-                <div><div class="inv"><?php echo $OUTPUT->main_content() ?></div><?php if ($hassidepost) { echo $OUTPUT->blocks_for_region('side-post'); } ?></div>
+                <div><div class="inv" id="page-content"><?php echo $OUTPUT->main_content() ?></div><?php if ($hassidepost) { echo $OUTPUT->blocks_for_region('side-post'); } ?></div>
             </div>
         </div>
         <div id="page-front-left">

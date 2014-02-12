@@ -24,7 +24,7 @@ echo $OUTPUT->doctype() ?>
 <head>
     <title><?php echo $PAGE->title ?></title>
     <link rel="shortcut icon" href="<?php echo $OUTPUT->pix_url('favicon', 'theme')?>" />
-    <meta name="viewport" content="width=device-width, maximum-scale=1.0" />
+    <meta name="viewport" content="width=device-width" />
     <?php echo $OUTPUT->standard_head_html() ?>
 </head>
 <body id="<?php p($PAGE->bodyid) ?>" class="<?php p($PAGE->bodyclasses.' '.join(' ', $bodyclasses)) ?> notfrontpage">
